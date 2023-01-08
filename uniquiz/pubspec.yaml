@@ -1,0 +1,59 @@
+name: uniquiz
+description: A new Flutter project.
+publish_to: 'none'
+version: 1.0.0+1
+environment:
+  sdk: '>=2.18.6 <3.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  google_fonts: ^3.0.1
+  flex_color_scheme: ^6.1.1
+  get: ^4.6.5
+  liquid_swipe: ^3.0.0
+  smooth_page_indicator: ^1.0.0+2
+  firebase_core: ^2.3.0
+  firebase_auth: ^4.1.5
+  email_validator: ^2.1.17
+  google_sign_in: ^5.4.2
+  flutter_svg: ^1.0.0
+  logger: ^1.0.0
+  easy_separator: ^1.0.1
+  blurhash_flutter: ^0.1.0
+  flutter_zoom_drawer: ^3.0.3
+  liquid_pull_to_refresh: ^3.0.1
+  shimmer: ^2.0.0
+  flutter_native_splash: ^2.2.16
+  cloud_firestore: ^4.3.0
+  firebase_storage: ^11.0.9
+  curved_navigation_bar: ^1.0.3
+  url_launcher: ^6.1.7
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/images/splash_images/
+    - assets/images/on_boarding_images/
+    - assets/images/welcome_images/
+    - assets/images/forget_password/
+    - assets/images/dashboard/
+    - assets/logo/
+    - assets/DB/papers/
+    - assets/icons/
+
+  fonts:
+    - family: AppIcons
+      fonts:
+        - asset: assets/icons/AppIcons.ttf
+
+

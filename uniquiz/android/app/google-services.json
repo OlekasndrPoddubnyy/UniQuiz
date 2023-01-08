@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "648703402718",
+    "project_id": "uniquiz-fdb94",
+    "storage_bucket": "uniquiz-fdb94.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:648703402718:android:95ee0bd9010d252448984f",
+        "android_client_info": {
+          "package_name": "com.example.uniquiz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "648703402718-1n0f4qniemto11a2bsfvb5rscprj2h5v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.uniquiz",
+            "certificate_hash": "28ca83e006a295600130c0cd4c5fed5ef9d7c419"
+          }
+        },
+        {
+          "client_id": "648703402718-eh7aotmhvi2arlre1g0629dr9mdujl19.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBa12DKRqqFDgiOE_HRpWIr43HwGqY5qAY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "648703402718-eh7aotmhvi2arlre1g0629dr9mdujl19.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "648703402718-v722nt5qpameidpsqphsun66sl3rg1ms.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.uniquiz"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
