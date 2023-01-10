@@ -23,8 +23,8 @@ class AnswerCheckScreen extends GetView<QuestionsController> {
           )
         ),
       ),
-      body: BackgroundDecoration(
-        child: Obx(() => Column(
+      body: Obx(() => BackgroundDecoration(
+        child: Column(
           children: [
             Expanded(
                 child: ContentArea(

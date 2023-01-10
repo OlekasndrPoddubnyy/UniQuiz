@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/flutter_svg.dart';
 import 'package:get/get.dart';
 import 'package:uniquiz/src/constants/custom_text_styles.dart';
 import 'package:uniquiz/src/constants/image_string.dart';

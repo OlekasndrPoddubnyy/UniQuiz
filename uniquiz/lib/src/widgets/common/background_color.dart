@@ -1,10 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:uniquiz/src/constants/app_colors.dart';
+import 'package:uniquiz/src/controllers/question_paper/questions_controller.dart';
 
 import '../../constants/colors.dart';
 
-class BackgroundDecoration extends StatelessWidget {
+class BackgroundDecoration extends GetView<QuestionsController> {
   final Widget child;
   final bool showGradient;
   const BackgroundDecoration({Key? key,
@@ -19,10 +20,8 @@ class BackgroundDecoration extends StatelessWidget {
       children: [
         Positioned.fill(
             child: Container(
-
               decoration: BoxDecoration(
-                color: showGradient ? null : Get.isDarkMode ? trophyColor : Color(
-                    0xead21d3d),
+                color: showGradient ? null : Get.isDarkMode ? trophyColor : const Color(0xead21d3d),
                 gradient: showGradient ? mainGradient() : null,
               ),
               child: CustomPaint(

@@ -1,6 +1,8 @@
 import 'dart:async';
 import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:flutter/cupertino.dart';
 import 'package:get/get.dart';
+import 'package:uniquiz/src/constants/app_colors.dart';
 import '../../firebase/firebase_ref.dart';
 import '../../screens/screens.dart';
 import '../../utils/logger.dart';
@@ -15,6 +17,7 @@ class QuestionsController extends GetxController {
   Timer? _timer;
   int remainSeconds = 0;
   final time = '00:00'.obs;
+
 
   @override
   void onReady() {

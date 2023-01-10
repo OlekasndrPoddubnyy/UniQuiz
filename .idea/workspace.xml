@@ -9,10 +9,17 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b5cadcd9-ba90-4518-9816-ea043e027db5" name="Changes" comment="splash screen resolve">
-      <change beforePath="$PROJECT_DIR$/uniquiz/lib/src/screens/home/pages/single_player_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/uniquiz/lib/src/screens/home/pages/single_player_page.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uniquiz/lib/src/screens/home/pages/user_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/uniquiz/lib/src/screens/home/pages/user_page.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uniquiz/lib/src/screens/splash/splash_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/uniquiz/lib/src/screens/splash/splash_screen.dart" afterDir="false" />
+    <list default="true" id="b5cadcd9-ba90-4518-9816-ea043e027db5" name="Changes" comment="resolve dark/light theme on home page">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uniquiz/lib/src/controllers/question_paper/questions_controller.dart" beforeDir="false" afterPath="$PROJECT_DIR$/uniquiz/lib/src/controllers/question_paper/questions_controller.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uniquiz/lib/src/screens/question/check_answer_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/uniquiz/lib/src/screens/question/check_answer_screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uniquiz/lib/src/screens/question/questions_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/uniquiz/lib/src/screens/question/questions_screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uniquiz/lib/src/screens/question/quiz_overview_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/uniquiz/lib/src/screens/question/quiz_overview_screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uniquiz/lib/src/screens/question/result_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/uniquiz/lib/src/screens/question/result_screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uniquiz/lib/src/utils/theme/theme.dart" beforeDir="false" afterPath="$PROJECT_DIR$/uniquiz/lib/src/utils/theme/theme.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uniquiz/lib/src/widgets/common/background_color.dart" beforeDir="false" afterPath="$PROJECT_DIR$/uniquiz/lib/src/widgets/common/background_color.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uniquiz/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/uniquiz/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uniquiz/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/uniquiz/pubspec.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +98,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673345187994</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="resolve dark/light theme on home page">
+      <created>1673345708205</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1673345708205</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -107,6 +121,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="splash screen resolve" />
-    <option name="LAST_COMMIT_MESSAGE" value="splash screen resolve" />
+    <MESSAGE value="resolve dark/light theme on home page" />
+    <option name="LAST_COMMIT_MESSAGE" value="resolve dark/light theme on home page" />
   </component>
 </project>

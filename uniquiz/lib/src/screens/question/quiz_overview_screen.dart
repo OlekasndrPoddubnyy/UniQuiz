@@ -23,7 +23,7 @@ class QuizOverviewScreen extends GetView<QuestionsController> {
       appBar:CustomAppBar(
         title: controller.completedQuiz,
       ),
-      body: BackgroundDecoration(
+      body: Obx(() => BackgroundDecoration(
         child: Column(
           children: [
             Expanded(
@@ -43,14 +43,14 @@ class QuizOverviewScreen extends GetView<QuestionsController> {
                                   : Color.fromARGB(255, 87, 9, 9).withOpacity(0.8),
                               time: '',
                             ),
-                            Obx(() => Text(
+                            Text(
                               '${controller.time}',
                               style: TextStyle(
                                 color: UIParameters.isDarkMode() ? Theme.of(context).textTheme.bodyText1!.color
                                     : Color.fromARGB(255, 87, 9, 9).withOpacity(0.8),
                                 letterSpacing: 2,
                               ),
-                            ))
+                            )
                           ],
                         ),
                         const SizedBox(height: 40),
@@ -100,6 +100,7 @@ class QuizOverviewScreen extends GetView<QuestionsController> {
           ],
         ),
       ),
+      )
     );
   }
 }

@@ -36,6 +36,7 @@ class MyApp extends StatelessWidget {
 
 
 
+
 Future<void> initFireBase() async {
   await Firebase.initializeApp(
     options: DefaultFirebaseOptions.currentPlatform,

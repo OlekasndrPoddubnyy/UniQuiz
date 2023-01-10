@@ -40,8 +40,8 @@ class QuestionScreen extends GetView<QuestionsController> {
             'Q. ${(controller.questionIndex.value+1).toString().padLeft(2, '0')}',
             style:appBarTs),
         )),
-      body: BackgroundDecoration(
-          child: Obx(() => Column(
+      body: Obx(() => BackgroundDecoration(
+          child: Column(
             children: [
               if(controller.loadingStatus.value==LoadingStatus.loading)
                 const Expanded(
