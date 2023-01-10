@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 import 'package:uniquiz/src/constants/app_colors.dart';
 import 'package:uniquiz/src/constants/image_string.dart';
 import 'package:uniquiz/src/constants/text_strings.dart';
@@ -18,7 +19,7 @@ class SplashScreen extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.center,
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Image.asset(tSplashScreen, height: 600, width: 400),
+            Image.asset(tSplashScreen, height:  Get.height*0.75, width: Get.width*0.8),
             const SizedBox(height:40),
             Text(tAppName, style: TextStyle(
               fontWeight: FontWeight.bold,

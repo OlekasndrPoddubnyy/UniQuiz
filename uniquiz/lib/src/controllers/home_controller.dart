@@ -11,6 +11,7 @@ class HomeController extends GetxController{
   RxInt page = 0.obs;
   RxInt points = 0.obs;
 
+
   @override
   void onReady() {
     user.value = Get.find<AuthController>().getUser();
@@ -50,5 +51,6 @@ class HomeController extends GetxController{
       AppLogger.e(e);
     }
   }
+
 
 }
