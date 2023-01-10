@@ -16,11 +16,13 @@ class SinglePlayerPage extends GetView<HomeController> {
   @override
   Widget build(BuildContext context) {
     QuizPaperController _questionPaperController = Get.find();
+    var darkTheme = Theme.of(context).brightness;
+    bool isDark = Brightness.dark == darkTheme;
     return Scaffold(
       body: GetBuilder<HomeController>(
         builder: (_) {
           return Container(
-            decoration: BoxDecoration(gradient: mainGradient()),
+            decoration: BoxDecoration(gradient:  isDark ?  mainGradientDark : mainGradientLight),
             child: SafeArea(
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,

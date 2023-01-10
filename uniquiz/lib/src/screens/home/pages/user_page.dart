@@ -12,10 +12,12 @@ class UserPage extends GetView<HomeController> {
 
   @override
   Widget build(BuildContext context) {
+    var darkTheme = Theme.of(context).brightness;
+    bool isDark = Brightness.dark == darkTheme;
     return Scaffold(
       body: Container(
         width: double.infinity,
-        decoration: BoxDecoration(gradient: mainGradient()),
+        decoration: BoxDecoration(gradient:  isDark ?  mainGradientDark : mainGradientLight),
         child: SafeArea(
           child: Obx(() => controller.user.value==null?
                 const SizedBox()

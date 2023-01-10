@@ -9,10 +9,9 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b5cadcd9-ba90-4518-9816-ea043e027db5" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uniquiz/lib/src/constants/app_colors.dart" beforeDir="false" afterPath="$PROJECT_DIR$/uniquiz/lib/src/constants/app_colors.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uniquiz/lib/src/controllers/home_controller.dart" beforeDir="false" afterPath="$PROJECT_DIR$/uniquiz/lib/src/controllers/home_controller.dart" afterDir="false" />
+    <list default="true" id="b5cadcd9-ba90-4518-9816-ea043e027db5" name="Changes" comment="splash screen resolve">
+      <change beforePath="$PROJECT_DIR$/uniquiz/lib/src/screens/home/pages/single_player_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/uniquiz/lib/src/screens/home/pages/single_player_page.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uniquiz/lib/src/screens/home/pages/user_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/uniquiz/lib/src/screens/home/pages/user_page.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/uniquiz/lib/src/screens/splash/splash_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/uniquiz/lib/src/screens/splash/splash_screen.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -85,6 +84,14 @@
       <option name="presentableId" value="Default" />
       <updated>1672221848096</updated>
     </task>
+    <task id="LOCAL-00001" summary="splash screen resolve">
+      <created>1673345187994</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1673345187994</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -97,5 +104,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="splash screen resolve" />
+    <option name="LAST_COMMIT_MESSAGE" value="splash screen resolve" />
   </component>
 </project>

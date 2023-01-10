@@ -11,9 +11,11 @@ class SplashScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    var darkTheme = Theme.of(context).brightness;
+    bool isDark = Brightness.dark == darkTheme;
     return Scaffold(
       body: Container(
-        decoration: BoxDecoration(gradient: mainGradient()),
+        decoration: BoxDecoration(gradient: isDark ?  mainGradientDark : mainGradientLight),
         alignment: Alignment.center,
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.center,
