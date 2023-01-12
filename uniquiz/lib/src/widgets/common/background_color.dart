@@ -16,13 +16,15 @@ class BackgroundDecoration extends GetView<QuestionsController> {
 
   @override
   Widget build(BuildContext context) {
+    final Brightness brightness = MediaQuery.platformBrightnessOf(context);
+    bool isDark = Brightness.dark == brightness;
     return Stack(
       children: [
         Positioned.fill(
             child: Container(
               decoration: BoxDecoration(
-                color: showGradient ? null : Get.isDarkMode ? trophyColor : const Color(0xead21d3d),
-                gradient: showGradient ? mainGradient() : null,
+                color: showGradient ? null : isDark ? trophyColor : const Color(0xead21d3d),
+                gradient: showGradient ? (isDark ? mainGradientDark : mainGradientLight ) : null,
               ),
               child: CustomPaint(
                 painter: BackgroundPainter(),

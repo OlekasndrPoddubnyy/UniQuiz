@@ -19,10 +19,12 @@ class QuestionNumberCard extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final Brightness brightness = MediaQuery.platformBrightnessOf(context);
+    bool isDark = Brightness.dark == brightness;
     Color _backgroundColor = Theme.of(context).primaryColor;
     switch(status){
       case AnswerStatus.answered:
-        _backgroundColor: Get.isDarkMode?
+        _backgroundColor: isDark?
             Theme.of(context).cardColor:Theme.of(context).primaryColor;
         break;
       case AnswerStatus.correct:
@@ -32,7 +34,7 @@ class QuestionNumberCard extends StatelessWidget {
         _backgroundColor = wrongAnswerColor;
         break;
       case AnswerStatus.notanswered:
-        _backgroundColor = Get.isDarkMode ? Colors.red.withOpacity(0.5) :
+        _backgroundColor = isDark ? Colors.red.withOpacity(0.5) :
           Theme.of(context).primaryColor.withOpacity(0.1);
         break;
       default:

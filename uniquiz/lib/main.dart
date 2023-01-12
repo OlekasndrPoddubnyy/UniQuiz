@@ -22,14 +22,14 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return GetMaterialApp(
-      navigatorKey: navigatorKey,
-      title: 'UniQuiz',
-      theme: TAppTheme.lightTheme,
-      darkTheme: TAppTheme.darkTheme,
-      themeMode: ThemeMode.system,
-      getPages: AppRoutes.routes(),
-      debugShowCheckedModeBanner: false,
-    );
+          navigatorKey: navigatorKey,
+          title: 'UniQuiz',
+          theme: TAppTheme.lightTheme,
+          darkTheme: TAppTheme.darkTheme,
+          themeMode: ThemeMode.system,
+          getPages: AppRoutes.routes(),
+          debugShowCheckedModeBanner: false,
+        );
   }
 }
 

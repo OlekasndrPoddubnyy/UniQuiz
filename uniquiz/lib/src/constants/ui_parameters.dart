@@ -12,6 +12,8 @@ class UIParameters {
   static EdgeInsets get mobileScreenPadding => const EdgeInsets.all(_mobileScreenPadding);
 
   static bool isDarkMode() {
-    return Get.isDarkMode ? true : false;
+    final Brightness brightness = MediaQuery.platformBrightnessOf(Get.context!);
+    bool isDark = Brightness.dark == brightness;
+    return isDark;
   }
 }

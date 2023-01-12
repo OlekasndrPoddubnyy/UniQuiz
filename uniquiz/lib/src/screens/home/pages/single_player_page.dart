@@ -4,7 +4,6 @@ import 'package:uniquiz/src/constants/app_colors.dart';
 import 'package:uniquiz/src/constants/colors.dart';
 import 'package:uniquiz/src/constants/ui_parameters.dart';
 import 'package:uniquiz/src/controllers/home_controller.dart';
-
 import '../../../constants/custom_text_styles.dart';
 import '../../../controllers/question_paper/quiz_papers_controller.dart';
 import '../../../widgets/content_area.dart';
@@ -16,8 +15,8 @@ class SinglePlayerPage extends GetView<HomeController> {
   @override
   Widget build(BuildContext context) {
     QuizPaperController _questionPaperController = Get.find();
-    var darkTheme = Theme.of(context).brightness;
-    bool isDark = Brightness.dark == darkTheme;
+    final Brightness brightness = MediaQuery.platformBrightnessOf(context);
+    bool isDark = Brightness.dark == brightness;
     return Scaffold(
       body: GetBuilder<HomeController>(
         builder: (_) {

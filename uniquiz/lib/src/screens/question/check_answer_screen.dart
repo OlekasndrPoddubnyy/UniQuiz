@@ -14,6 +14,8 @@ class AnswerCheckScreen extends GetView<QuestionsController> {
 
   @override
   Widget build(BuildContext context) {
+    final Brightness brightness = MediaQuery.platformBrightnessOf(context);
+    bool isDark = Brightness.dark == brightness;
     return Scaffold(
       extendBodyBehindAppBar: true,
       appBar: CustomAppBar(
@@ -34,6 +36,7 @@ class AnswerCheckScreen extends GetView<QuestionsController> {
                       children: [
                         Text(controller.currentQuestion.value!.question!,
                           style: questionTS),
+                        const SizedBox(height: 20),
                         GetBuilder<QuestionsController>(
                             id: 'answers_review_list',
                             builder: (_){

@@ -19,6 +19,7 @@ class QuestionsController extends GetxController {
   final time = '00:00'.obs;
 
 
+
   @override
   void onReady() {
     final _questionPaper = Get.arguments as QuestionPaperModel;
@@ -33,7 +34,6 @@ class QuestionsController extends GetxController {
     }
     super.onClose();
   }
-
   
 /*
   Future<bool> onExitOfQuiz() async{
