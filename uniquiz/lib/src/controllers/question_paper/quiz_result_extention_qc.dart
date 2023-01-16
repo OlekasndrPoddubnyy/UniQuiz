@@ -22,10 +22,11 @@ extension QuizeResult on QuestionsController {
 
   String get points {
     var points = (correctQuestionCount / allQuestions.length) *
-        100 *
+        250 + (correctQuestionCount / allQuestions.length) *
+        59 * ( 100 -
         (questionPaperModel.timeSeconds - remainSeconds) /
         questionPaperModel.timeSeconds *
-        100;
+        100);
     return points.toStringAsFixed(0);
   }
 

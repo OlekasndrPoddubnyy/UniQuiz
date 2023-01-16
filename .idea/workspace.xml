@@ -9,17 +9,9 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b5cadcd9-ba90-4518-9816-ea043e027db5" name="Changes" comment="resolve dark/light theme on home page">
+    <list default="true" id="b5cadcd9-ba90-4518-9816-ea043e027db5" name="Changes" comment="Credo di aver risolto tutti i problemi riguardanti il cambio di Brughtness,dopo il quale i colori funzionavano male, nelle varie pagine...">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uniquiz/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/uniquiz/lib/main.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uniquiz/lib/src/constants/ui_parameters.dart" beforeDir="false" afterPath="$PROJECT_DIR$/uniquiz/lib/src/constants/ui_parameters.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uniquiz/lib/src/controllers/question_paper/questions_controller.dart" beforeDir="false" afterPath="$PROJECT_DIR$/uniquiz/lib/src/controllers/question_paper/questions_controller.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uniquiz/lib/src/screens/home/pages/single_player_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/uniquiz/lib/src/screens/home/pages/single_player_page.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uniquiz/lib/src/screens/question/check_answer_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/uniquiz/lib/src/screens/question/check_answer_screen.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uniquiz/lib/src/screens/question/result_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/uniquiz/lib/src/screens/question/result_screen.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uniquiz/lib/src/widgets/common/background_color.dart" beforeDir="false" afterPath="$PROJECT_DIR$/uniquiz/lib/src/widgets/common/background_color.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uniquiz/lib/src/widgets/content_area.dart" beforeDir="false" afterPath="$PROJECT_DIR$/uniquiz/lib/src/widgets/content_area.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uniquiz/lib/src/widgets/questions/question_number_card.dart" beforeDir="false" afterPath="$PROJECT_DIR$/uniquiz/lib/src/widgets/questions/question_number_card.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uniquiz/lib/src/controllers/question_paper/quiz_result_extention_qc.dart" beforeDir="false" afterPath="$PROJECT_DIR$/uniquiz/lib/src/controllers/question_paper/quiz_result_extention_qc.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,7 +104,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673349012561</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Credo di aver risolto tutti i problemi riguardanti il cambio di Brughtness,dopo il quale i colori funzionavano male, nelle varie pagine...">
+      <created>1673547292973</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1673547292973</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -129,6 +128,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="splash screen resolve" />
     <MESSAGE value="resolve dark/light theme on home page" />
-    <option name="LAST_COMMIT_MESSAGE" value="resolve dark/light theme on home page" />
+    <MESSAGE value="Credo di aver risolto tutti i problemi riguardanti il cambio di Brughtness,dopo il quale i colori funzionavano male, nelle varie pagine..." />
+    <option name="LAST_COMMIT_MESSAGE" value="Credo di aver risolto tutti i problemi riguardanti il cambio di Brughtness,dopo il quale i colori funzionavano male, nelle varie pagine..." />
   </component>
 </project>
