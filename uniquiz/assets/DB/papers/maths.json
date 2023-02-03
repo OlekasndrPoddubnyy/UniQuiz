@@ -1,113 +1,97 @@
 {
     "id": "ppr003",
-    "title": "Maths",
+    "title": "Analisi Matematica I",
     "image_url": "",
-    "description": "Basic Maths Multiple Choice Questions (MCQ) to practice basic Maths quiz answers",
-    "time_seconds": 900,
+    "description": "Domande a scelta multipla (MCQ) di Analisi Matematica I per esercitarsi per l'esame.",
+    "time_seconds": 300,
     "questions": [
         {
-            "id": "ppr003q001",
-            "question": "Jenna has 82 apples. She gives Sam 28 apples. How many apples does Jenna have now?",
+            "id": "ppr003q1",
+            "question": "Il teorema di Rolle afferma che se una funzione continua in un intervallo [a, b] e differenziabile in (a, b), allora esiste almeno un punto c in (a, b) tale che:",
             "answers": [
                 {
                     "identifier": "A",
-                    "Answer": "45"
+                    "Answer": "f'(c) = f(a)"
                 },
                 {
                     "identifier": "B",
-                    "Answer": "108"
+                    "Answer": "f'(c) = f(b)"
                 },
                 {
                     "identifier": "C",
-                    "Answer": "54"
+                    "Answer": "f'(c) = (f(a) + f(b)) / 2"
                 },
                 {
                     "identifier": "D",
-                    "Answer": "37"
-                }
-            ],
-            "correct_answer": "C"
-        },
-        {
-            "id": "ppr003q002",
-            "question": "Max and Billy went to a farm! Max collected 18 eggs and Billy collected 29 eggs. How many eggs did they collect in total.",
-            "answers": [
-                {
-                    "identifier": "A",
-                    "Answer": "74"
-                },
-                {
-                    "identifier": "B",
-                    "Answer": "22"
-                },
-                {
-                    "identifier": "C",
-                    "Answer": "80"
-                },
-                {
-                    "identifier": "D",
-                    "Answer": "47"
+                    "Answer": "f'(c) = 0"
                 }
             ],
             "correct_answer": "D"
         },
         {
-            "id": "ppr003q003",
-            "question": "what is 2/10 +15/100 equal?",
+            "id": "ppr003q2",
+            "question": "La funzione y = log x è:",
             "answers": [
                 {
                     "identifier": "A",
-                    "Answer": "17"
+                    "Answer": "crescente"
                 },
                 {
                     "identifier": "B",
-                    "Answer": "35/100"
+                    "Answer": "decrescente"
                 },
                 {
                     "identifier": "C",
-                    "Answer": "30/100"
+                    "Answer": "un'antitrasformata"
                 },
                 {
                     "identifier": "D",
-                    "Answer": "17/100"
+                    "Answer": "monotona"
                 }
             ],
-            "correct_answer": "B"
+            "correct_answer": "A"
         },
         {
-            "id": "ppr003q004",
-            "question": "How many times greater is 2,340 than 234?",
+            "id": "ppr003q3",
+            "question": "La derivata di una funzione costante è 0:",
             "answers": [
                 {
                     "identifier": "A",
-                    "Answer": "20 times"
+                    "Answer": "Vero"
                 },
                 {
                     "identifier": "B",
-                    "Answer": "100 times"
-                },
-                {
-                    "identifier": "C",
-                    "Answer": "10 times"
-                },
-                {
-                    "identifier": "D",
-                    "Answer": "1 time"
+                    "Answer": "Falso"
                 }
             ],
-            "correct_answer": "C"
+            "correct_answer": "A"
         },
         {
-            "id": "ppr003q005",
-            "question": "How many sides does a quadrilateral have?",
+            "id": "ppr003q4",
+            "question": "La derivata della funzione y = x^n è y' = nx^(n-1)",
             "answers": [
                 {
                     "identifier": "A",
-                    "Answer": "5"
+                    "Answer": "Vero"
                 },
                 {
                     "identifier": "B",
-                    "Answer": "3"
+                    "Answer": "Falso"
+                }
+            ],
+            "correct_answer": "A"
+        },
+        {
+            "id": "ppr003q5",
+            "question": "La funzione y = x^2 + 3x + 2 è una funzione polinomiale di grado:",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "0"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "1"
                 },
                 {
                     "identifier": "C",
@@ -115,10 +99,125 @@
                 },
                 {
                     "identifier": "D",
-                    "Answer": "4"
+                    "Answer": "3"
+                }
+            ],
+            "correct_answer": "C"
+        },
+        {
+            "id": "ppr003q6",
+            "question": "Il limite di una funzione in un punto p può essere:",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "Un numero reale"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "+infinito"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "-infinito"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "Tutti gli sopra elencati"
                 }
             ],
             "correct_answer": "D"
+        },
+        {
+            "id": "ppr003q7",
+            "question": "Quale delle seguenti affermazioni sul calcolo differenziale è corretta?",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "Il calcolo differenziale non ha alcun legame con la fisica"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "Il calcolo differenziale è la branca della matematica che studia le funzioni e le loro proprietà"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "Il calcolo differenziale studia solo le funzioni continue"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "Il calcolo differenziale studia solo le funzioni a valori reali"
+                }
+            ],
+            "correct_answer": "B"
+        },
+        {
+            "id": "ppr003q8",
+            "question": "Quale delle seguenti proprietà non appartiene alla classe dei numeri reali?",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "Commutatività dell'addizione"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "Associatività dell'addizione"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "Distributività della moltiplicazione rispetto all'addizione"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "Esistenza di elementi opposti per l'addizione"
+                }
+            ],
+            "correct_answer": "D"
+        },
+        {
+            "id": "ppr003q9",
+            "question": "Quale dei seguenti non è un tipo di continuità?",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "Continuità in un punto"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "Continuità totale"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "Continuità parziale"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "Continuità assoluta"
+                }
+            ],
+            "correct_answer": "D"
+        },
+        {
+            "id": "ppr003qq10",
+            "question": "Quale delle seguenti affermazioni riguardanti le derivate parziali è vera?",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "Le derivate parziali possono essere calcolate solo per funzioni di due variabili."
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "Le derivate parziali descrivono il modo in cui una funzione cambia quando solo una delle sue variabili cambia."
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "Le derivate parziali non possono essere utilizzate per calcolare la tangente ad una superficie."
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "Tutti i suddetti"
+                }
+            ],
+            "correct_answer": "B"
         }
     ]
 }

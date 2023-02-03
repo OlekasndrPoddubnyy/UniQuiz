@@ -1,108 +1,223 @@
 {
     "id": "ppr002",
-    "title": "Chemistry",
+    "title": "Chimica",
     "image_url": "",
-    "description": "Basic Chemistry Multiple Choice Questions (MCQ) to practice basic Chemistry quiz answers",
-    "time_seconds": 900,
+    "description": "Domande a scelta multipla (MCQ) di Chimica I per esercitarsi per l'esame.",
+    "time_seconds": 200,
     "questions": [
         {
-            "id": "ppr002q001",
-            "question": "What is the chemical symbol for carbon?",
+            "id": "ppr002q1",
+            "question": "Quale tra i seguenti non è un tipo di reazione chimica?",
             "answers": [
                 {
                     "identifier": "A",
-                    "Answer": "C"
+                    "Answer": "Reazione esotermica"
                 },
                 {
                     "identifier": "B",
-                    "Answer": "Ca"
+                    "Answer": "Reazione endotermica"
                 },
                 {
                     "identifier": "C",
-                    "Answer": "Cn"
+                    "Answer": "Reazione di neutralizzazione"
                 },
                 {
                     "identifier": "D",
-                    "Answer": "Crn"
-                }
-            ],
-            "correct_answer": "A"
-        },
-        {
-            "id": "ppr002q002",
-            "question": "Molecules bonded together make up atoms.",
-            "answers": [
-                {
-                    "identifier": "A",
-                    "Answer": "True"
-                },
-                {
-                    "identifier": "B",
-                    "Answer": "False"
-                }
-            ],
-            "correct_answer": "B"
-        },
-        {
-            "id": "ppr002q003",
-            "question": "When we combined vinegar and baking soda and created carbon dioxide what was the product?",
-            "answers": [
-                {
-                    "identifier": "A",
-                    "Answer": "vinegar"
-                },
-                {
-                    "identifier": "B",
-                    "Answer": "carbon dioxide and baking soda"
-                },
-                {
-                    "identifier": "C",
-                    "Answer": "carbon dioxide"
-                },
-                {
-                    "identifier": "D",
-                    "Answer": "vinegar and baking soda"
-                }
-            ],
-            "correct_answer": "C"
-        },
-        {
-            "id": "ppr002q004",
-            "question": "which of the following is a unit of eletric current:",
-            "answers": [
-                {
-                    "identifier": "A",
-                    "Answer": "ohm"
-                },
-                {
-                    "identifier": "B",
-                    "Answer": "volt"
-                },
-                {
-                    "identifier": "C",
-                    "Answer": "watt"
-                },
-                {
-                    "identifier": "D",
-                    "Answer": "amp"
+                    "Answer": "Reazione di combustione"
                 }
             ],
             "correct_answer": "D"
         },
         {
-            "id": "ppr002q005",
-            "question": "In a chemical reaction or change a new substance is not created.?",
+            "id": "ppr002q2",
+            "question": "Quale elemento chimico è il costituente principale dell'acqua?",
             "answers": [
                 {
                     "identifier": "A",
-                    "Answer": "true"
+                    "Answer": "Idrogeno"
                 },
                 {
                     "identifier": "B",
-                    "Answer": "false"
+                    "Answer": "Elio"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "Ossigeno"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "Carbonio"
+                }
+            ],
+            "correct_answer": "A"
+        },
+        {
+            "id": "ppr002q3",
+            "question": "In che modo gli ioni sono formati?",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "Perdono elettroni"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "Acquisiscono elettroni"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "Condividono elettroni"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "Non hanno carica elettrica"
                 }
             ],
             "correct_answer": "B"
+        },
+        {
+            "id": "ppr002q4",
+            "question": "Quale delle seguenti è una proprietà fisica della materia?",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "Durezza"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "Peso specifico"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "Densità"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "Tutti i suddetti"
+                }
+            ],
+            "correct_answer": "D"
+        },
+        {
+            "id": "ppr002q5",
+            "question": "La formula chimica di un composto è sempre univoca?",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "Vero"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "Falso"
+                }
+            ],
+            "correct_answer": "A"
+        },
+        {
+            "id": "ppr002q6",
+            "question": "La pressione atmosferica è causata da:",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "La forza gravitazionale della Terra"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "La massa dell'atmosfera"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "La temperatura dell'atmosfera"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "Tutti i suddetti"
+                }
+            ],
+            "correct_answer": "B"
+        },
+        {
+            "id": "ppr002q7",
+            "question": "Qual è il numero atomico dell'elio?",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "2"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "4"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "8"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "10"
+                }
+            ],
+            "correct_answer": "A"
+        },
+        {
+            "id": "ppr002q8",
+            "question": "Quale è la carica elettrica di un atomo di idrogeno?",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "Positiva"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "Negativa"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "Neutrale"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "Dipende dalla situazione"
+                }
+            ],
+            "correct_answer": "C"
+        },
+        {
+            "id": "ppr002q9",
+            "question": "La pressione parziale di un gas è la pressione esercitata da un gas in una miscela di gas.",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "Vero"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "Falso"
+                }
+            ],
+            "correct_answer": "A"
+        },
+        {
+            "id": "ppr002qq10",
+            "question": "La legge di Lavoisier afferma che:",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "La massa di un sistema chimico non cambia durante una reazione chimica"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "La massa di un sistema chimico può cambiare durante una reazione chimica"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "La massa di un sistema chimico aumenta durante una reazione chimica"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "La massa di un sistema chimico diminuisce durante una reazione chimica"
+                }
+            ],
+            "correct_answer": "A"
         }
     ]
 }

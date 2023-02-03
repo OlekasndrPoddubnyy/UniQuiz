@@ -1,0 +1,331 @@
+{
+  "id": "ppr004",
+  "title": "Fondamenti Informatica",
+  "image_url": "",
+  "description": "Domande a scelta multipla (MCQ) di Fondamenti Informatica per esercitarsi per l'esame.",
+  "time_seconds": 300,
+  "questions": [
+    {
+      "id": "ppr004q1",
+      "question": "Quale dei seguenti è un linguaggio di programmazione di basso livello?",
+      "answers": [
+        {
+          "identifier": "A",
+          "Answer": "Java"
+        },
+        {
+          "identifier": "B",
+          "Answer": "C++"
+        },
+        {
+          "identifier": "C",
+          "Answer": "Assembly"
+        },
+        {
+          "identifier": "D",
+          "Answer": "Python"
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": "ppr004q2",
+      "question": "Cos'è un sistema operativo?",
+      "answers": [
+        {
+          "identifier": "A",
+          "Answer": "Un programma che controlla la memoria del computer"
+        },
+        {
+          "identifier": "B",
+          "Answer": " Un programma che gestisce i file sul computer"
+        },
+        {
+          "identifier": "C",
+          "Answer": "Un programma che controlla le attività hardware e software del computer"
+        },
+        {
+          "identifier": "D",
+          "Answer": "Un programma che gestisce la connessione internet del computer"
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": "ppr004q3",
+      "question": "Quale dei seguenti è un tipo di software?",
+      "answers": [
+        {
+          "identifier": "A",
+          "Answer": "Mouse"
+        },
+        {
+          "identifier": "B",
+          "Answer": " Tastiera"
+        },
+        {
+          "identifier": "C",
+          "Answer": "Monitor"
+        },
+        {
+          "identifier": "D",
+          "Answer": "Application"
+        }
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": "ppr004q4",
+      "question": "Quale dei seguenti è un tipo di dispositivo di archiviazione?",
+      "answers": [
+        {
+          "identifier": "A",
+          "Answer": "CPU"
+        },
+        {
+          "identifier": "B",
+          "Answer": "RAM"
+        },
+        {
+          "identifier": "C",
+          "Answer": "Hard Disk"
+        },
+        {
+          "identifier": "D",
+          "Answer": "Scheda Grafica"
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": "ppr004q5",
+      "question": "Quale tra le seguenti è una proprietà delle funzioni in C?",
+      "answers": [
+        {
+          "identifier": "A",
+          "Answer": "Le funzioni devono essere dichiarate prima della loro chiamata."
+        },
+        {
+          "identifier": "B",
+          "Answer": "Le funzioni possono essere dichiarate solo all'interno di altre funzioni."
+        },
+        {
+          "identifier": "C",
+          "Answer": "Le funzioni possono essere dichiarate in qualsiasi posizione del programma."
+        },
+        {
+          "identifier": "D",
+          "Answer": "Le funzioni non possono essere dichiarate"
+        }
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": "ppr004q6",
+      "question": "Quale tra le seguenti è una proprietà della memoria dinamica in C?",
+      "answers": [
+        {
+          "identifier": "A",
+          "Answer": "La memoria dinamica è allocata automaticamente all'avvio del programma."
+        },
+        {
+          "identifier": "B",
+          "Answer": "La memoria dinamica è allocata manualmente durante l'esecuzione del programma."
+        },
+        {
+          "identifier": "C",
+          "Answer": "La memoria dinamica non può essere allocata manualmente."
+        },
+        {
+          "identifier": "D",
+          "Answer": "La memoria dinamica non esiste in C."
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": "ppr004q7",
+      "question": "Quale delle seguenti dichiarazioni è vera riguardo all'utilizzo dei costrutti di controllo in C?",
+      "answers": [
+        {
+          "identifier": "A",
+          "Answer": "I costrutti di controllo non possono essere utilizzati per modificare il flusso di esecuzione di un programma."
+        },
+        {
+          "identifier": "B",
+          "Answer": "I costrutti di controllo possono essere utilizzati solo in combinazione con altri costrutti di controllo."
+        },
+        {
+          "identifier": "C",
+          "Answer": "I costrutti di controllo possono essere utilizzati per modificare il flusso di esecuzione di un programma."
+        },
+        {
+          "identifier": "D",
+          "Answer": "I costrutti di controllo non possono essere utilizzati in C."
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": "ppr004q8",
+      "question": "Quale tra le seguenti è una proprietà dei tipi di dati in C?",
+      "answers": [
+        {
+          "identifier": "A",
+          "Answer": "I tipi di dati devono essere dichiarati prima dell'utilizzo."
+        },
+        {
+          "identifier": "B",
+          "Answer": "I tipi di dati possono essere dichiarati solo all'interno di funzioni."
+        },
+        {
+          "identifier": "C",
+          "Answer": "I tipi di dati possono essere dichiarati in qualsiasi posizione del programma."
+        },
+        {
+          "identifier": "D",
+          "Answer": "I tipi di dati non possono essere dichiarati."
+        }
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": "ppr004q9",
+      "question": "Qual è l'utilizzo principale della funzione printf in C?",
+      "answers": [
+        {
+          "identifier": "A",
+          "Answer": "Lettura di input da tastiera"
+        },
+        {
+          "identifier": "B",
+          "Answer": "Stampa di output su schermo"
+        },
+        {
+          "identifier": "C",
+          "Answer": "Calcolo di operazioni matematiche"
+        },
+        {
+          "identifier": "D",
+          "Answer": "Gestione di file"
+        }
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": "ppr004qq10",
+      "question": "Cosa rappresenta l'acronimo \"NULL\" in C?",
+      "answers": [
+        {
+          "identifier": "A",
+          "Answer": "Una stringa vuota"
+        },
+        {
+          "identifier": "B",
+          "Answer": "Un valore booleano vero"
+        },
+        {
+          "identifier": "C",
+          "Answer": "Un puntatore che non punta a nessun valore"
+        },
+        {
+          "identifier": "D",
+          "Answer": "Un valore numerico negativo"
+        }
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": "ppr004qq11",
+      "question": "Qual è l'utilizzo principale della funzione scanf in C?",
+      "answers": [
+        {
+          "identifier": "A",
+          "Answer": "Lettura di input da tastiera"
+        },
+        {
+          "identifier": "B",
+          "Answer": "Stampa di output su schermo"
+        },
+        {
+          "identifier": "C",
+          "Answer": "Calcolo di operazioni matematiche"
+        },
+        {
+          "identifier": "D",
+          "Answer": "Gestione di file"
+        }
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": "ppr004qq12",
+      "question": "Quale dei seguenti non è un tipo di dato primitivo in C?",
+      "answers": [
+        {
+          "identifier": "A",
+          "Answer": "Intero"
+        },
+        {
+          "identifier": "B",
+          "Answer": "Floating point"
+        },
+        {
+          "identifier": "C",
+          "Answer": "Carattere"
+        },
+        {
+          "identifier": "D",
+          "Answer": "Matrice"
+        }
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": "ppr004qq13",
+      "question": "Come viene definito un costante in C?",
+      "answers": [
+        {
+          "identifier": "A",
+          "Answer": "Utilizzando la parola chiave \"const\""
+        },
+        {
+          "identifier": "B",
+          "Answer": "Utilizzando la parola chiave \"final\""
+        },
+        {
+          "identifier": "C",
+          "Answer": "Utilizzando la parola chiave \"static\""
+        },
+        {
+          "identifier": "D",
+          "Answer": "Utilizzando la parola chiave \"define\""
+        }
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": "ppr004qq14",
+      "question": "Qual è l'utilizzo principale delle strutture di controllo in C (if-else, while, for)?",
+      "answers": [
+        {
+          "identifier": "A",
+          "Answer": "Gestione del flusso di esecuzione del programma"
+        },
+        {
+          "identifier": "B",
+          "Answer": "Stampa di output su schermo"
+        },
+        {
+          "identifier": "C",
+          "Answer": "Calcolo di operazioni matematiche"
+        },
+        {
+          "identifier": "D",
+          "Answer": "Gestione di file"
+        }
+      ],
+      "correct_answer": "A"
+    }
+  ]
+}

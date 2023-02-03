@@ -7,6 +7,7 @@ import 'firebase_options.dart';
 import 'src/screens/admin/data_uploader_screen.dart';
 import 'src/utils/theme/theme.dart';
 
+
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await initFireBase();
@@ -34,14 +35,15 @@ class MyApp extends StatelessWidget {
 }
 
 
-
-
-
 Future<void> initFireBase() async {
   await Firebase.initializeApp(
     options: DefaultFirebaseOptions.currentPlatform,
   );
 }
+
+/**
+ * Questa Parte serve per caricare le domande su DB..
+ */
 
 /*
 void main(List<String> args) async {
@@ -51,4 +53,5 @@ void main(List<String> args) async {
     home: DataUploaderScreen(),
   ));
 }
+
  */

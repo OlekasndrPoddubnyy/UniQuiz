@@ -1,5 +1,3 @@
-import 'dart:convert';
-
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:get/get.dart';
@@ -27,6 +25,7 @@ extension QuizeResult on QuestionsController {
         (questionPaperModel.timeSeconds - remainSeconds) /
         questionPaperModel.timeSeconds *
         100);
+      points = points/10;
     return points.toStringAsFixed(0);
   }
 

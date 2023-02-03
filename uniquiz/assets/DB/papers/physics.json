@@ -1,125 +1,208 @@
 {
     "id": "ppr001",
-    "title": "Physics",
+    "title": "Fisica",
     "image_url": "",
-    "description": "Basic physics Multiple Choice Questions (MCQ) to practice basic physics quiz answers",
-    "time_seconds": 900,
+    "description": "Domande a scelta multipla (MCQ) di Fisica I per esercitarsi per l'esame.",
+    "time_seconds": 200,
     
     "questions": [
         {
-            "id": "ppr001q001",
-            "question": "Which one of the following is a good conductor of electricity?",
+            "id": "ppr001q1",
+            "question": "Qual è la formula per calcolare la forza gravitazionale tra due corpi?",
             "answers": [
                 {
                     "identifier": "A",
-                    "Answer": "Glass"
+                    "Answer": "G * (m1 * m2) / r^2"
                 },
                 {
                     "identifier": "B",
-                    "Answer": "Human body"
+                    "Answer": "m * a"
                 },
                 {
                     "identifier": "C",
-                    "Answer": "Ebonite"
+                    "Answer": "F * d * t"
                 },
                 {
                     "identifier": "D",
-                    "Answer": "Shellac"
+                    "Answer": "I * R * t"
+                }
+            ],
+            "correct_answer": "A"
+        },
+        {
+            "id": "ppr001q2",
+            "question": "Qual è la formula per calcolare la velocità di un oggetto in caduta libera?",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "m * g * h"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "g * t"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "mv^2 = kx^2"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "1/2 * m * v^2"
                 }
             ],
             "correct_answer": "B"
         },
         {
-            "id": "ppr001q002",
-            "question": "Which one of the following has maximum energy?",
+            "id": "ppr001q3",
+            "question": "Qual è la formula per calcolare la quantità di moto di un oggetto?",
             "answers": [
                 {
                     "identifier": "A",
-                    "Answer": "Yellow light"
+                    "Answer": "m * a"
                 },
                 {
                     "identifier": "B",
-                    "Answer": "Green light"
+                    "Answer": "m * g * h"
                 },
                 {
                     "identifier": "C",
-                    "Answer": "Violet light"
+                    "Answer": "1/2 * k * x^2"
                 },
                 {
                     "identifier": "D",
-                    "Answer": "Red light"
-                }
-            ],
-            "correct_answer": "C"
-        },
-        {
-            "id": "ppr001q003",
-            "question": "Which law is involved in the act of cleaning a carpet by beating it with a stick?",
-            "answers": [
-                {
-                    "identifier": "A",
-                    "Answer": "First law of motion"
-                },
-                {
-                    "identifier": "B",
-                    "Answer": "Second law of motion"
-                },
-                {
-                    "identifier": "C",
-                    "Answer": "Law of conservation of mass"
-                },
-                {
-                    "identifier": "D",
-                    "Answer": "Law of conservation of energy"
-                }
-            ],
-            "correct_answer": "C"
-        },
-        {
-            "id": "ppr001q004",
-            "question": "which of the following is a unit of eletric current:",
-            "answers": [
-                {
-                    "identifier": "A",
-                    "Answer": "ohm"
-                },
-                {
-                    "identifier": "B",
-                    "Answer": "volt"
-                },
-                {
-                    "identifier": "C",
-                    "Answer": "watt"
-                },
-                {
-                    "identifier": "D",
-                    "Answer": "amp"
+                    "Answer": "m * v"
                 }
             ],
             "correct_answer": "D"
         },
         {
-            "id": "ppr001q005",
-            "question": "When an object is in motion, it's ................... must change.?",
+            "id": "ppr001q4",
+            "question": "Qual è la formula per calcolare l'energia cinetica di un oggetto in moto?",
             "answers": [
                 {
                     "identifier": "A",
-                    "Answer": "Shapen"
+                    "Answer": "F * v"
                 },
                 {
                     "identifier": "B",
-                    "Answer": "Size"
+                    "Answer": "m * g * h"
                 },
                 {
                     "identifier": "C",
-                    "Answer": "Acceleration"
+                    "Answer": "1/2 * m * v^2"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "m * a^2"
+                }
+            ],
+            "correct_answer": "C"
+        },
+        {
+            "id": "ppr001q5",
+            "question": "Qual è la formula per calcolare la velocità di un oggetto che si muove con moto rettilineo uniformemente accelerato?",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "v0 + at"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "m * g * h"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "m * a"
                 },
                 {
                     "identifier": "D",
                     "Answer": "Position"
                 }
             ],
-            "correct_answer": "D"
+            "correct_answer": "A"
+        },
+        {
+            "id": "ppr001q6",
+            "question": "L'energia totale di un sistema isolato è costante, ovvero che l'energia non può essere creata né distrutta.",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "Vero"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "Falso"
+                }
+            ],
+            "correct_answer": "A"
+        },
+        {
+            "id": "ppr001q7",
+            "question": "Quale principio della termodinamica afferma che l'entropia di un sistema isolato tende ad aumentare nel tempo?",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "Primo principio della termodinamica"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "Secondo principio della termodinamica"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "Terzo principio della termodinamica"
+                }
+            ],
+            "correct_answer": "B"
+        },
+        {
+            "id": "ppr001q8",
+            "question": "La temperatura di un sistema aumenta se si effettua lavoro su di esso.",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "Vero"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "Falso"
+                }
+            ],
+            "correct_answer": "B"
+        },
+        {
+            "id": "ppr001q9",
+            "question": "Quale principio della termodinamica afferma che il calore non può fluire da un corpo freddo a un corpo caldo senza che si verifichi un lavoro?",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": " Primo principio della termodinamica"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "Secondo principio della termodinamica"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "Terzo principio della termodinamica"
+                }
+            ],
+            "correct_answer": "B"
+        },
+        {
+            "id": "ppr001qq10",
+            "question": "Durante un processo termodinamico, l'entropia di un sistema aumenta sempre.",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "Vero"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "Falso"
+                }
+            ],
+            "correct_answer": "A"
         }
     ]
 }
