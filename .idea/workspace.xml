@@ -9,16 +9,11 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b5cadcd9-ba90-4518-9816-ea043e027db5" name="Changes" comment="Correzione assegnazione punti in base al tempo">
-      <change afterPath="$PROJECT_DIR$/uniquiz/assets/DB/papers/fondamentiInformatica.json" afterDir="false" />
+    <list default="true" id="b5cadcd9-ba90-4518-9816-ea043e027db5" name="Changes" comment="4 sezioni di domande speriamo in ita">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uniquiz/assets/DB/papers/bialogy.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uniquiz/assets/DB/papers/chemistry.json" beforeDir="false" afterPath="$PROJECT_DIR$/uniquiz/assets/DB/papers/chemistry.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uniquiz/assets/DB/papers/chemistry.jtxt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uniquiz/assets/DB/papers/maths.json" beforeDir="false" afterPath="$PROJECT_DIR$/uniquiz/assets/DB/papers/maths.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uniquiz/assets/DB/papers/physics.json" beforeDir="false" afterPath="$PROJECT_DIR$/uniquiz/assets/DB/papers/physics.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uniquiz/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/uniquiz/lib/main.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/uniquiz/lib/src/controllers/question_paper/quiz_result_extention_qc.dart" beforeDir="false" afterPath="$PROJECT_DIR$/uniquiz/lib/src/controllers/question_paper/quiz_result_extention_qc.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uniquiz/lib/src/firebase/references.dart" beforeDir="false" afterPath="$PROJECT_DIR$/uniquiz/lib/src/firebase/references.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uniquiz/lib/src/screens/home/home_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/uniquiz/lib/src/screens/home/home_screen.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,7 +120,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673886638784</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="4 sezioni di domande speriamo in ita">
+      <created>1675432199279</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1675432199279</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -144,6 +146,7 @@
     <MESSAGE value="resolve dark/light theme on home page" />
     <MESSAGE value="Credo di aver risolto tutti i problemi riguardanti il cambio di Brughtness,dopo il quale i colori funzionavano male, nelle varie pagine..." />
     <MESSAGE value="Correzione assegnazione punti in base al tempo" />
-    <option name="LAST_COMMIT_MESSAGE" value="Correzione assegnazione punti in base al tempo" />
+    <MESSAGE value="4 sezioni di domande speriamo in ita" />
+    <option name="LAST_COMMIT_MESSAGE" value="4 sezioni di domande speriamo in ita" />
   </component>
 </project>

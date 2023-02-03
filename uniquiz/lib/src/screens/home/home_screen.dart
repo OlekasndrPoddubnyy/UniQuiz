@@ -14,13 +14,11 @@ class HomeScreen extends GetView<HomeController> {
   Widget build(BuildContext context) {
     final screens = [
       const SinglePlayerPage(),
-      const MultiPlayerPage(),
       const TrophyPage(),
       const UserPage(),
     ];
     final items = <Widget>[
       const Icon(Icons.home_rounded, size:30),
-      const Icon(Icons.people_rounded, size:30),
       const Icon(Icons.emoji_events_rounded, size: 30),
       const Icon(Icons.settings, size: 30)
     ];

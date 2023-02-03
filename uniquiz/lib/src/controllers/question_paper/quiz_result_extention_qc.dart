@@ -56,6 +56,13 @@ extension QuizeResult on QuestionsController {
           .doc(_user.email), {
         "totalPoints" : totalPoints
       });
+      batch.set(
+          leaderBoardFR
+              .doc(_user.email),
+          {
+            "points": totalPoints,
+            "user_id": _user.email,
+          });
     }catch (e){
       AppLogger.e(e);
     }
@@ -70,20 +77,6 @@ extension QuizeResult on QuestionsController {
           "paper_id": questionPaperModel.id,
           "time": questionPaperModel.timeSeconds - remainSeconds
         });
-    /*
-    batch.set(
-        leaderBoardFR
-            .doc(quizPaperModel.id)
-            .collection('scores')
-            .doc(_user.email),
-        {
-          "points": double.parse(points),
-          "correct_count": '$correctQuestionCount/${allQuestions.length}',
-          "paper_id": questionPaperModel.id,
-          "user_id": _user.email,
-          "time": questionPaperModel.timeSeconds - remainSeconds
-        });
-     */
     await batch.commit();
 
     navigateToHome();
