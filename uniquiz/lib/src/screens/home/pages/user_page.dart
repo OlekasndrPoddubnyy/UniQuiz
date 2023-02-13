@@ -2,10 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:uniquiz/src/constants/app_colors.dart';
 import 'package:uniquiz/src/controllers/home_controller.dart';
-import 'package:uniquiz/src/firebase/firebase_ref.dart';
 
 import '../../../constants/colors.dart';
-import '../../../models/user_model.dart';
 
 class UserPage extends GetView<HomeController> {
   const UserPage({Key? key}) : super(key: key);

@@ -1,3 +1,4 @@
+
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:get/get.dart';
 import 'package:url_launcher/url_launcher.dart';
@@ -10,12 +11,15 @@ class HomeController extends GetxController{
   Rxn<User?> user = Rxn();
   RxInt page = 0.obs;
   RxInt points = 0.obs;
+  RxInt rank = 0.obs;
+  var leaderBoardList = <UserLeaderBoard>[].obs;
 
 
   @override
   void onReady() {
     user.value = Get.find<AuthController>().getUser();
     userPoints();
+    userRank();
     super.onReady();
   }
 
@@ -48,6 +52,34 @@ class HomeController extends GetxController{
       final myUser = Users.fromSnapshot(myUserdoc);
       points.value = myUser.totalPoints;
     }catch (e){
+      AppLogger.e(e);
+    }
+  }
+
+  Future<void> leaderList () async {
+    try{
+      final leaderBoardQuery = await leaderBoardFR.orderBy('points', descending: true).get();
+      leaderBoardList.value = leaderBoardQuery.docs
+          .map((gamers) => UserLeaderBoard.fromSnapshot(gamers))
+          .toList();
+    } catch (e){
+      AppLogger.e(e);
+    }
+  }
+
+  Future<void> userRank () async {
+    try{
+      final myUserdoc = await userRF.doc(user.value!.email).get();
+      final myUser = Users.fromSnapshot(myUserdoc);
+      leaderList();
+      rank.value = 1;
+      for (UserLeaderBoard user in leaderBoardList) {
+          if (user.userName == myUser.email) {
+            break;
+          }
+          rank.value++;
+      }
+    } catch (e){
       AppLogger.e(e);
     }
   }

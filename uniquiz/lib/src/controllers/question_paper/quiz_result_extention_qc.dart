@@ -61,7 +61,7 @@ extension QuizeResult on QuestionsController {
               .doc(_user.email),
           {
             "points": totalPoints,
-            "user_id": _user.email,
+            "user_id": _user.displayName,
           });
     }catch (e){
       AppLogger.e(e);

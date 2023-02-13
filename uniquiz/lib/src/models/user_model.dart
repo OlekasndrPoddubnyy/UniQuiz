@@ -41,3 +41,21 @@ class UsersQuizs {
         points = snapshot['points'],
         time = snapshot['time'] as int;
   }
+
+  class UserLeaderBoard {
+  String id;
+  int points;
+  String userName;
+
+  UserLeaderBoard({required this.id,
+    required this.points,
+    required this.userName});
+
+    UserLeaderBoard.fromSnapshot(
+        DocumentSnapshot<Map<String, dynamic>> snapshot)
+        :id = snapshot.id,
+        points = snapshot['points'] as int,
+        userName = snapshot['user_id'];
+
+
+  }
