@@ -25,12 +25,12 @@ class LeaderboardCard extends GetView<HomeController> {
         child: Row(
 
           children: [
-            Text(' # ${(controller.leaderBoardList.indexOf(model)) + 1}', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 15),),
+            Text(' # ${(controller.leaderBoardList.indexOf(model)) + 1}', style: const TextStyle(fontWeight: FontWeight.bold, fontSize: 15),),
             const SizedBox(width: 20),
             Text(model.userName),
             const Spacer(),
-            Text('Points:  '),
-            Text('${model.points}', style: TextStyle(fontWeight: FontWeight.bold), ),
+            const Text('Points:  '),
+            Text('${model.points}', style: const TextStyle(fontWeight: FontWeight.bold), ),
           ],
         ),
       )
