@@ -14,7 +14,6 @@ class HomeController extends GetxController{
   RxInt rank = 0.obs;
   var leaderBoardList = <UserLeaderBoard>[].obs;
 
-
   @override
   void onReady() {
     user.value = Get.find<AuthController>().getUser();
@@ -69,15 +68,34 @@ class HomeController extends GetxController{
 
   Future<void> userRank () async {
     try{
-      final myUserdoc = await userRF.doc(user.value!.email).get();
-      final myUser = Users.fromSnapshot(myUserdoc);
-      leaderList();
-      rank.value = 1;
-      for (UserLeaderBoard user in leaderBoardList) {
-          if (user.userName == myUser.email) {
+      User? myUser = Get.find<AuthController>().getUser();
+      try{
+        final leaderBoardQuery = await leaderBoardFR.orderBy('points', descending: true).get();
+        leaderBoardList.value = leaderBoardQuery.docs
+            .map((gamers) => UserLeaderBoard.fromSnapshot(gamers))
+            .toList();
+        rank.value = 0;
+        for (UserLeaderBoard user in leaderBoardList) {
+          if (user.userName == myUser?.displayName) {
+            rank.value=-1;
             break;
           }
           rank.value++;
+        }
+        if(rank.value == leaderBoardList.length){
+          rank.value = 0;
+        }else{
+          rank.value = 0;
+          for (UserLeaderBoard user in leaderBoardList) {
+            if (user.userName == myUser?.displayName) {
+              rank.value++;
+              break;
+            }
+            rank.value++;
+          }
+        }
+      } catch (e){
+        AppLogger.e(e);
       }
     } catch (e){
       AppLogger.e(e);

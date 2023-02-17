@@ -15,6 +15,7 @@ class TrophyPage extends GetView<HomeController> {
   Widget build(BuildContext context) {
     var darkTheme = Theme.of(context).brightness;
     bool isDark = Brightness.dark == darkTheme;
+    var rank = controller.rank.value==0? "N/A" : controller.rank.value;
     return Scaffold(
         body: Container(
           width: double.infinity,
@@ -62,7 +63,7 @@ class TrophyPage extends GetView<HomeController> {
                               ),
                             ),
                             const SizedBox(width: 30),
-                            Text('Rank #${controller.rank.value}',
+                            Text('Rank #${controller.rank.value==0? "N/A" : controller.rank.value}',
                               style: const TextStyle(
                                 fontWeight:FontWeight.w900,
                                 letterSpacing: 2,
